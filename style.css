@@ -21,6 +21,7 @@ body {
     font-family:'Poppins', sans-serif;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.5s;
 }
 .logo-title:hover {
     color: #E02C6D;
@@ -69,6 +70,7 @@ nav ul li a:hover::after {
 /* body start */
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -95,8 +97,9 @@ main {
 }
 .top-camera {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 80%;
+    top: 10%;
+    left: 10%;
 }
 .banner-title {
     color: #3a3a3a;
